@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-5.0.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+
+    <changeSet id="insert-25-employees-ru-0.1" author="Egorw (generated)">
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11"/>
+            <column name="first_name" value="Иван"/>
+            <column name="last_name" value="Иванов"/>
+            <column name="patronymic" value="Иванович"/>
+            <column name="department" value="IT"/>
+            <column name="number_phone" value="89012345678"/>
+            <column name="email" value="ivan.ivanov@company.ru"/>
+            <column name="post" value="Разработчик"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a12"/>
+            <column name="first_name" value="Мария"/>
+            <column name="last_name" value="Петрова"/>
+            <column name="patronymic" value="Сергеевна"/>
+            <column name="department" value="HR"/>
+            <column name="number_phone" value="89012345679"/>
+            <column name="email" value="maria.petrova@company.ru"/>
+            <column name="post" value="HR-специалист"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a13"/>
+            <column name="first_name" value="Алексей"/>
+            <column name="last_name" value="Сидоров"/>
+            <column name="patronymic" value="Дмитриевич"/>
+            <column name="department" value="FINANCE"/>
+            <column name="number_phone" value="89012345680"/>
+            <column name="email" value="alexey.sidorov@company.ru"/>
+            <column name="post" value="Бухгалтер"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a14"/>
+            <column name="first_name" value="Елена"/>
+            <column name="last_name" value="Кузнецова"/>
+            <column name="patronymic" value="Андреевна"/>
+            <column name="department" value="MARKETING"/>
+            <column name="number_phone" value="89012345681"/>
+            <column name="email" value="elena.kuznetsova@company.ru"/>
+            <column name="post" value="Маркетолог"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a15"/>
+            <column name="first_name" value="Дмитрий"/>
+            <column name="last_name" value="Смирнов"/>
+            <column name="patronymic" value="Павлович"/>
+            <column name="department" value="IT"/>
+            <column name="number_phone" value="89012345682"/>
+            <column name="email" value="dmitry.smirnov@company.ru"/>
+            <column name="post" value="DevOps-инженер"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a16"/>
+            <column name="first_name" value="Ольга"/>
+            <column name="last_name" value="Попова"/>
+            <column name="patronymic" value="Владимировна"/>
+            <column name="department" value="LEGAL"/>
+            <column name="number_phone" value="89012345683"/>
+            <column name="email" value="olga.popova@company.ru"/>
+            <column name="post" value="Юрист"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a17"/>
+            <column name="first_name" value="Сергей"/>
+            <column name="last_name" value="Волков"/>
+            <column name="patronymic" value="Николаевич"/>
+            <column name="department" value="SUPPORT"/>
+            <column name="number_phone" value="89012345684"/>
+            <column name="email" value="sergey.volkov@company.ru"/>
+            <column name="post" value="Инженер поддержки"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a20"/>
+            <column name="first_name" value="Татьяна"/>
+            <column name="last_name" value="Соколова"/>
+            <column name="patronymic" value="Васильевна"/>
+            <column name="department" value="FINANCE"/>
+            <column name="number_phone" value="89012345687"/>
+            <column name="email" value="tatyana.sokolova@company.ru"/>
+            <column name="post" value="Финансовый аналитик"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a21"/>
+            <column name="first_name" value="Павел"/>
+            <column name="last_name" value="Лебедев"/>
+            <column name="patronymic" value="Олегович"/>
+            <column name="department" value="IT"/>
+            <column name="number_phone" value="89012345688"/>
+            <column name="email" value="pavel.lebedev@company.ru"/>
+            <column name="post" value="Архитектор решений"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a22"/>
+            <column name="first_name" value="Юлия"/>
+            <column name="last_name" value="Новикова"/>
+            <column name="patronymic" value="Михайловна"/>
+            <column name="department" value="MARKETING"/>
+            <column name="number_phone" value="89012345689"/>
+            <column name="email" value="yulia.novikova@company.ru"/>
+            <column name="post" value="PR-менеджер"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a23"/>
+            <column name="first_name" value="Виктор"/>
+            <column name="last_name" value="Александров"/>
+            <column name="patronymic" value="Романович"/>
+            <column name="department" value="LEGAL"/>
+            <column name="number_phone" value="89012345690"/>
+            <column name="email" value="victor.alexandrov@company.ru"/>
+            <column name="post" value="Юрист по корпоративным вопросам"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a24"/>
+            <column name="first_name" value="Анна"/>
+            <column name="last_name" value="Григорьева"/>
+            <column name="patronymic" value="Станиславовна"/>
+            <column name="department" value="SUPPORT"/>
+            <column name="number_phone" value="89012345691"/>
+            <column name="email" value="anna.grigoryeva@company.ru"/>
+            <column name="post" value="Техподдержка"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a25"/>
+            <column name="first_name" value="Роман"/>
+            <column name="last_name" value="Борисов"/>
+            <column name="patronymic" value="Алексеевич"/>
+            <column name="department" value="IT"/>
+            <column name="number_phone" value="89012345692"/>
+            <column name="email" value="roman.borisov@company.ru"/>
+            <column name="post" value="Fullstack-разработчик"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a26"/>
+            <column name="first_name" value="Ксения"/>
+            <column name="last_name" value="Орлова"/>
+            <column name="patronymic" value="Павловна"/>
+            <column name="department" value="FINANCE"/>
+            <column name="number_phone" value="89012345693"/>
+            <column name="email" value="ksenia.orlova@company.ru"/>
+            <column name="post" value="Главный бухгалтер"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a27"/>
+            <column name="first_name" value="Станислав"/>
+            <column name="last_name" value="Козлов"/>
+            <column name="patronymic" value="Вячеславович"/>
+            <column name="department" value="IT"/>
+            <column name="number_phone" value="89012345694"/>
+            <column name="email" value="stanislav.kozlov@company.ru"/>
+            <column name="post" value="Техлид"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a28"/>
+            <column name="first_name" value="Вероника"/>
+            <column name="last_name" value="Семёнова"/>
+            <column name="patronymic" value="Игоревна"/>
+            <column name="department" value="MARKETING"/>
+            <column name="number_phone" value="89012345695"/>
+            <column name="email" value="veronika.semenova@company.ru"/>
+            <column name="post" value="Контент-менеджер"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a29"/>
+            <column name="first_name" value="Георгий"/>
+            <column name="last_name" value="Васильев"/>
+            <column name="patronymic" value="Семёнович"/>
+            <column name="department" value="SUPPORT"/>
+            <column name="number_phone" value="89012345696"/>
+            <column name="email" value="georgy.vasiliev@company.ru"/>
+            <column name="post" value="Специалист службы поддержки"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a30"/>
+            <column name="first_name" value="Людмила"/>
+            <column name="last_name" value="Захарова"/>
+            <column name="patronymic" value="Фёдоровна"/>
+            <column name="department" value="HR"/>
+            <column name="number_phone" value="89012345697"/>
+            <column name="email" value="lyudmila.zakharova@company.ru"/>
+            <column name="post" value="HR-директор"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a31"/>
+            <column name="first_name" value="Никита"/>
+            <column name="last_name" value="Белов"/>
+            <column name="patronymic" value="Данилович"/>
+            <column name="department" value="IT"/>
+            <column name="number_phone" value="89012345698"/>
+            <column name="email" value="nikita.belov@company.ru"/>
+            <column name="post" value="Системный администратор"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a32"/>
+            <column name="first_name" value="Алина"/>
+            <column name="last_name" value="Макарова"/>
+            <column name="patronymic" value="Руслановна"/>
+            <column name="department" value="IT"/>
+            <column name="number_phone" value="89012345699"/>
+            <column name="email" value="alina.makarova@company.ru"/>
+            <column name="post" value="UX-дизайнер"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a33"/>
+            <column name="first_name" value="Михаил"/>
+            <column name="last_name" value="Николаев"/>
+            <column name="patronymic" value="Артёмович"/>
+            <column name="department" value="LEGAL"/>
+            <column name="number_phone" value="89012345700"/>
+            <column name="email" value="mikhail.nikolaev@company.ru"/>
+            <column name="post" value="Юрист по договорной работе"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a34"/>
+            <column name="first_name" value="Екатерина"/>
+            <column name="last_name" value="Михайлова"/>
+            <column name="patronymic" value="Дмитриевна"/>
+            <column name="department" value="FINANCE"/>
+            <column name="number_phone" value="89012345701"/>
+            <column name="email" value="ekaterina.mikhailova@company.ru"/>
+            <column name="post" value="Финансовый директор"/>
+        </insert>
+
+        <insert tableName="employee">
+            <column name="id" value="a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a35"/>
+            <column name="first_name" value="Артём"/>
+            <column name="last_name" value="Егоров"/>
+            <column name="patronymic" value="Сергеевич"/>
+            <column name="department" value="IT"/>
+            <column name="number_phone" value="89012345702"/>
+            <column name="email" value="artem.egorov@company.ru"/>
+            <column name="post" value="Старший разработчик"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
